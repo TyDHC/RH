@@ -19,6 +19,9 @@ git = "https://github.com/PatrickMassot/checkdecls.git"
 name = "«doc-gen4»"
 git = "https://github.com/leanprover/doc-gen4"
 rev = "main"
+<<<<<<< HEAD
 
+=======
+>>>>>>> c1c88b6d582cb0d74008a74415d3045e56dcfbc5
 [[lean_lib]]
 name = "Project"

@@ -8,8 +8,15 @@
 
 \usepackage{amssymb, amsthm, amsmath}
 \usepackage{hyperref}
-\usepackage[showmore, dep_graph]{blueprint}
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.svg,.png,.jpg}
+\usepackage[capitalize]{cleveref}
+\usepackage[showmore, dep_graph, project=../../, dep_by=chapter]{blueprint}
+%%\usepackage[dep_graph, coverage, project=../project, dep_by=section]{blueprint}
 
+
+\usepackage{tikz-cd}
+\usepackage{tikz}
 
 \input{macros/common}
 \input{macros/web}
